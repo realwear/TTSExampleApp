@@ -82,4 +82,16 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    public void speedFast(View view) {
+        t1.setSpeechRate((float) 2);
+    }
+
+    public void speedSlow(View view) {
+        t1.setSpeechRate((float) .6);
+    }
+
+    public void speedNormal(View view) {
+        t1.setSpeechRate((float) 1);
+    }
 }
